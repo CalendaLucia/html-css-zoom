@@ -1,0 +1,111 @@
+/* RESET */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* GENERAL STYLE */
+
+body {
+   font-family: 'Indie Flower', cursive;
+ }
+
+ .container {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+  
+  
+ }
+
+/* STYLE NAV */
+
+.Speaker-View span {
+   color: white;
+   background-color: rgba(255, 255, 255, 0.3);
+   border-radius: 5px;
+   padding: 2px 5px;
+   margin-left: 10px;
+   font-size: 10px;
+}
+
+nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+ 
+}
+ /* STYLE CONTAINER SCREEN */
+
+.container-box {
+    width: 90%;
+    height: 70%;
+    margin: 0 auto ;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+}
+
+.box {
+    width: calc(90% / 7);
+   
+    position: relative;
+    border: 1px solid black;
+    box-shadow: 4px 3px 19px 8px #000000;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+} 
+
+.info-box {
+    color: white;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0px 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+/* STYLE CONTAINER ICON */
+
+
+.nav-footer {
+    padding: 20px;
+}
+
+.container-icon {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+}
+
+.container-icon .fa-solid, .fa-brands {
+  font-size: 15px;
+  text-align: center;
+}
+
+
+h6 {
+    line-height: 20px;
+    font-size: 5px;
+  
+}
+
+.right-icon {
+    background-color: #4a4a4a ;
+    padding: 13px 10px;
+    color: red;
+}
